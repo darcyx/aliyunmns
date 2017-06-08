@@ -16,10 +16,8 @@
     "phpunit/phpunit": "~4.0",
     "satooshi/php-coveralls": "~1.0"
   },
+  "minimum-stability": "stable",
   "autoload": {
-    "files": ["autoload.php"],
-    "psr-0": {
-        "aliyunmns": "./"
-    }
+    "psr-4": {"AliyunMNS\\": "src/AliyunMNS"}
   }
 }
