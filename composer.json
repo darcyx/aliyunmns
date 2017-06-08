@@ -17,8 +17,9 @@
     "satooshi/php-coveralls": "~1.0"
   },
   "autoload": {
-    "psr-4": {
-      "TCG\\Voyager\\": "src/"
+    "files": ["autoload.php"],
+    "psr-0": {
+        "aliyunmns": "./"
     }
   }
 }
